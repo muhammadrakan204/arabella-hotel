@@ -1,0 +1,628 @@
+body {
+    height: 5000px;
+    background-color: #2B2D42;
+}
+
+/* navbar */
+.nav-link {
+    margin-right: 15px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 14px;
+}
+
+nav {
+    background-color: rgba(43,45,66,0.9);
+    opacity: 0,3;
+}
+
+
+.navbar-brand {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+}
+
+.tombol {
+    background-color: #EE8B98;
+    border: none;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    margin-right: -15px;
+}
+
+/* info panel */
+.info-panel {
+    background-color: white;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.8);
+    margin-top: -40px;
+    padding: 10px;
+}
+
+.info-panel h2 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.info-panel i {
+    color: #2B2D42;
+}
+
+/* description */
+.description {
+    margin-top: 80px;
+    color: white;
+    margin-bottom: 150px;
+}
+
+.description h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    color: #EE8B98;
+    opacity: 0;
+    transform: translate(0,-40px);
+    transition: 1s;
+}
+
+.description h1.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.description h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin-bottom: 15px;
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: 2s;
+}
+
+.description h3.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.description .teks {
+    opacity: 0;
+    transform: translate(0, 40px);
+    transition: 1s;
+}
+
+.description .teks.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+
+/* rooms offer */
+.rooms h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    color: #EE8B98;
+    margin-top: 80px;
+    opacity: 0;
+    transform: translate(0,-40px);
+    transition: 1s;
+}
+
+.title-rooms p {
+    opacity: 0;
+    transition: 2s;
+    transform: translate(0,-30px);
+}
+
+.title-rooms p.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.rooms h1.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+.rooms .title-rooms {
+    margin-bottom: 50px;
+    color: #797D7F;
+    padding-bottom: 35px;
+}
+
+.sRoom h2 {
+    opacity: 0;
+    transition: 1s;
+    transform: translate(-40px,0);
+}
+
+.sRoom p {
+    opacity: 0;
+    transform: translate(-50px,0);
+    transition: .5s;
+}
+
+.sRoom p.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.sRoom h2.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.dRoom h2 {
+    opacity: 0;
+    transition: 1s;
+    transform: translate(-50px,0);
+}
+
+.dRoom h2.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.dRoom p {
+    opacity: 0;
+    transform: translate(-50px,0);
+    transition: .5s;
+}
+.dRoom p.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.fSuite h2 {
+    opacity: 0;
+    transform: translate(-50px,0);
+    transition: 1s;
+}
+
+.fSuite p {
+    opacity: 0;
+    transform: translate(-40px,0);
+    transition: .5s;
+}
+
+.fSuite p.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.fSuite h2.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.jSuite h2 {
+    opacity: 0;
+    transform: translate(-50px,0);
+    transition: 1s;
+}
+
+.jSuite h2.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.jSuite p{
+    opacity: 0;
+    transition: .5s;
+    transform: translate(-40px,0);
+}
+
+.jSuite p.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.pSuite h2 {
+    opacity: 0;
+    transform: translate(-50px,0);
+    transition: 1s;
+}
+
+.pSuite h2.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.pSuite p {
+    opacity: 0;
+    transition: .5s;
+    transform: translate(-40px,0);
+}
+
+.pSuite p.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+.rooms img {
+    border-radius: 7px;
+    border: 1px solid;
+}
+
+.rooms {
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.rooms button {
+    background-color: #EE8B98;
+    color: white;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.rooms button:hover {
+    background-color: #2B2D42;
+    color: white;
+    transition: all ease-in-out .2s;
+}
+.description-room p {
+    margin-bottom: 53px;
+    color: #797D7F;
+}
+
+.gambar-kamar {
+    border-bottom: 3px solid #EE8B98;
+    padding-bottom: 20px;
+}
+
+.card-fitur .overlay {
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: all ease-in-out .3s;
+    cursor: pointer;
+}
+
+.card-fitur .overlay:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 1;
+    border-radius: 7px;
+}
+
+.garis-atas {
+    border-top: 3px solid #EE8B98;
+    margin-top: -15px;
+}
+
+
+/* hero */
+.hero {
+    background-color: white;
+    overflow: hidden;
+}
+
+.hero h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    margin-top: 25px;
+    font-style: italic;
+}
+
+.hero h3 {
+    font-size: 20px;
+}
+
+.hero p {
+    font-family: 'Mulish', sans-serif;
+    margin-top: 20px;
+}
+
+.container-pool {
+    background-color: #2B2D42 ;
+}
+
+.container-pool p {
+    color: white;
+    font-family: 'Mulish', sans-serif;
+}
+
+.container-pool h2 {
+    color: white;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.container-pool h3 {
+    color: #EE8B98;
+}
+
+.pool {
+    margin-right: -28px;
+}
+
+.hero h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    color: #EE8B98;
+    margin-top: 20px;
+    padding-top: 50px;
+}
+
+.title-facilities p {
+    text-align: center;
+    color: white;
+    padding-bottom: 70px;
+}
+
+.text-hero {
+    background-color: #2B2D42 ;
+}
+
+.container-massage h2 {
+    color: #2B2D42;
+    font-weight: bold;
+}
+
+.container-massage h3 {
+    color: #EE8B98;
+}
+.container-massage p {
+    color: black;
+}
+
+.container-massage {
+    background-color: white;
+    margin-left: -15px;
+}
+
+.hero button {
+    background-color: #EE8B98;
+    color: white;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #2B2D42;
+    color: #EE8B98;
+    transition: all ease-in-out .2s;
+}
+
+.relatip {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.title-facilities h1 {
+    opacity: 0;
+    transform: translate(0,-40px);
+    transition: 1s;
+}
+
+.title-facilities p {
+    opacity: 0;
+    transform: translate(0,40px);
+    transition: 1s;
+}
+
+.title-facilities h1.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.title-facilities p.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+/* photo */
+.photo {
+    background-color: #2B2D42;
+}
+
+.photo h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    color: #EE8B98;
+    margin-top: 80px;
+    text-align: center;
+    opacity: 0;
+    transform: translate(0,40px);
+    transition: 1s;
+}
+
+.photo p {
+    color: white;
+    text-align: center;
+    margin-bottom: 70px;
+    opacity: 0;
+    transform: translate(0,-40px);
+    transition: 1s;
+}
+
+.photo h1.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.photo p.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.carousel h3 {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.70);
+}
+
+.carousel p {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.70);
+}
+
+
+/* footer */
+.footer {
+    background-color: white;
+    border-top: 4px solid #797D7F;
+}
+
+.footer-title {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #EE8B98;
+    font-weight: bold;
+}
+
+.footer p {
+    margin-top: -10px;
+    font-size: 15px;
+}
+
+.footer i {
+    margin-right: 10px;
+    font-size: 50px;
+    color: #2B2D42;
+    text-decoration: none;
+}
+
+/* modal */
+.modal h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #EE8B98;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.modal i {
+    font-size: 10px;
+    color:#EE8B98;
+    padding-right: 6px;
+}
+
+.modal-body .pp {
+    margin-top: -3em;
+}
+
+/* desktop version */
+@media (min-width: 992px) {
+    nav {
+        height: 70px;
+    }
+
+    .jumbotron h1 {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .garis:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #EE8B98;
+        width: 50%;
+        margin: auto;
+        margin-bottom: -5px;
+    }
+
+    .navbar-brand {
+        margin-left: 20px;
+    }
+
+    .tombol:hover{
+        background-color: white;
+        color: #EE8B98;
+        transition: all ease-in-out .2s;
+    }
+    
+    .hero h2 {
+        margin-top: 45px;
+    }
+
+    .hero button {
+        margin-top: 50px;
+    }
+
+    .container-pool h2 {
+        padding-top: 27px;
+    }
+
+    .container-massage h2 {
+        padding-top: 25px;
+    }
+
+    .description-room p {
+        margin-bottom: 100px;
+    }
+
+    .relatip {
+        margin-top: -20px;
+    }
+
+    .footer p {
+        font-size: 17px;
+    }
+
+    .modal-body .pp {
+        margin-top: -90px;
+    }
+}
+
+
+/* tablet version */
+@media (max-width: 991.98px) {
+      .navbar {
+        background-color: #2B2D42
+    }
+
+}
+
+
+
+/* mobile version */
+@media (min-width: 276px) {
+    .info-panel h2 {
+        padding-bottom: 5px;
+    }
+
+    .gambar-massage {
+        margin-left: -10px;
+    }
+
+    
+    .rooms button {
+        margin-top: -35px;
+    }
+
+    .hero h2 {
+        margin-top: 50px;
+    }
+    
+}
+
+
+
+@media (max-width: 575.98px) {   
+    .gambar-massage {
+        padding-top: 10px;
+    }    
+
+    .gambar-massage {
+        margin-left: 1px;
+    }
+    .rooms h2 {
+        padding-top: 22px;
+    }
+
+    .modal h2 {
+        font-size: 2em;
+    }
+
+    .modal .modal-superior {
+        margin-top: -50px;
+    }
+}
